@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/Icon/Icon">
+        <file>1_curve_candy.png</file>
+        <file>2_circle_candy.png</file>
+        <file>3_hexagon_candy.png</file>
+        <file>4_rect_candy.png</file>
+        <file>5_curve_candy_v.png</file>
+        <file>6_circle_candy_v.png</file>
+        <file>7_hexagon_candy_v.png</file>
+        <file>8_rect_candy_v.png</file>
+        <file>9_curve_candy_h.png</file>
+        <file>10_circle_candy_h.png</file>
+        <file>11_hexagon_candy_h.png</file>
+        <file>12_rect_candy_h.png</file>
+        <file>13_curve_candy_b.png</file>
+        <file>14_circle_candy_b.png</file>
+        <file>15_hexagon_candy_b.png</file>
+        <file>16_rect_candy_b.png</file>
+        <file>17_star.png</file>
+    </qresource>
+    <qresource prefix="/background/background">
+        <file>backpixmap.png</file>
+        <file>candycrush.png</file>
+        <file>score.png</file>
+        <file>gamestart.png</file>
+        <file>sosweet.png</file>
+        <file>finished.png</file>
+        <file>star.png</file>
+    </qresource>
+</RCC>
