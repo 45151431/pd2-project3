@@ -11,6 +11,7 @@ menu::menu(QWidget *parent) :
     s=new sle;
     connect(ui->s_game, SIGNAL(clicked()), this, SLOT(s_game()));
     connect(ui->t_game, SIGNAL(clicked()), this, SLOT(t_game()));
+    connect(ui->f_game, SIGNAL(clicked()), this, SLOT(f_game()));
     connect(s, SIGNAL(quit(int, int)), this, SLOT(Menu(int, int)));
     connect(t, SIGNAL(quit(int, int)), this, SLOT(Menu(int, int)));
 }

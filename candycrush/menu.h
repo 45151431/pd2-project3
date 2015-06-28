@@ -28,15 +28,20 @@ public slots:
     }
     void s_game()
     {
-        this->hide();
+        this->close();
         s->show();
         s->game_init();
     }
     void t_game()
     {
-        this->hide();
+        this->close();
         t->show();
         t->game_init();
+    }
+    void f_game()
+    {
+        emit quit(star, score);
+        this->close();
     }
 
 signals:

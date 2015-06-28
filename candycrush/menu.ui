@@ -77,9 +77,32 @@
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
    </widget>
+   <widget class="QPushButton" name="f_game">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>320</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe 仿宋 Std R</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(200,200,255,200)</string>
+    </property>
+    <property name="text">
+     <string>結束遊戲</string>
+    </property>
+   </widget>
    <zorder>label</zorder>
    <zorder>t_game</zorder>
    <zorder>s_game</zorder>
+   <zorder>f_game</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
